@@ -15,13 +15,15 @@ package org.Evgeniy.lesson_1_3
 //Взлет – 09:07
 //Посадка – 10:55
 //
-//Подсказка для вывода: какой метод печати в консоль не делает перенос в конце строки?
+//Подсказка для вывода: какой метод печати в консоль не делает перенос в конце строки? // print
 fun main(args: Array<String>) {
     val year: Int = 1961
     var hour: Int = 9
     var minute: Int = 7
+    hour = 10
+    minute = 55
    println("Год полета - $year")
-    println("Час взлёта - $hour")
-    println("Минута взлёта - $minute")
+    println("Время посадки - $hour:$minute")
+
 
 }
