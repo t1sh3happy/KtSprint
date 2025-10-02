@@ -25,5 +25,4 @@ fun main() {
     minute = 55
     println("Год полета - $year")
     println("Время посадки - $hour:$minute")
-
 }
